@@ -1,13 +1,14 @@
 import { Title } from "@/common/ui";
 import Link from "next/link";
-import { DownloadApp, SocialLinks } from ".";
 
 export const Navigation = () => {
   return (
     <div className="max-w-[1060px] mx-auto">
       <nav className="flex sm:flex-row flex-col items-start justify-between gap-8 sm:gap-y-12 sm:gap-x-6 flex-wrap lg:flex-nowrap text-center sm:text-left">
         <div className="mx-auto sm:mx-0">
-          <Title className="text-3xl mb-5 sm:mb-7 whitespace-nowrap">Need Help</Title>
+          <Title className="text-3xl mb-5 sm:mb-7 whitespace-nowrap">
+            Need Help
+          </Title>
           <ul className="font-medium text-lg flex flex-col gap-3 md:gap-5 whitespace-nowrap">
             <li>
               <a
@@ -42,7 +43,7 @@ export const Navigation = () => {
                 target="_blank"
                 className="hover:text-violet-400 transition-colors"
               >
-                FAQ's
+                FAQ&apos;s
               </a>
             </li>
             <li>
@@ -109,7 +110,9 @@ export const Navigation = () => {
         </div>
 
         <div className="mx-auto sm:mx-0">
-          <Title className="text-3xl mb-5 sm:mb-7 whitespace-nowrap">More Info</Title>
+          <Title className="text-3xl mb-5 sm:mb-7 whitespace-nowrap">
+            More Info
+          </Title>
           <ul className="font-medium text-lg flex flex-col gap-3 md:gap-5 whitespace-nowrap">
             <li>
               <Link

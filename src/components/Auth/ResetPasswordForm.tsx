@@ -29,7 +29,7 @@ export function ResetPasswordForm() {
           Reset Your Password
         </Title>
         <p className="mt-2.5 leading-5 text-[#676B80]">
-          Enter your email and we'll send you a link to reset your password.
+          Enter your email and we&apos;ll send you a link to reset your password.
         </p>
         <p className="mt-1 font-medium text-[#858585]">Please check it.</p>
         <div className={"mt-7 mb-12"}>

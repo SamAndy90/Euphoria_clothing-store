@@ -30,6 +30,7 @@ export function BigSavingZone(props: BigSavingZoneType) {
                 "flex flex-[1_0_30%] min-w-[300px] rounded-xl overflow-hidden relative h-[393px] px-5 text-gray-700",
                 { "text-white": i.textwhite, "flex-row-reverse": i.textRight }
               )}
+              key={i.id}
             >
               <div
                 className={clsx("flex flex-col justify-center items-start basis-1/2", {
